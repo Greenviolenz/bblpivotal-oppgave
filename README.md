@@ -18,7 +18,7 @@ For å starte applikasjonen kjør:
 yarn
 ```
 
-For å installere pakker, etterfulgt av:
+for å installere pakker, etterfulgt av:
 
 ```
 yarn dev
