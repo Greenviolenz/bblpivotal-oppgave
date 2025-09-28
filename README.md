@@ -9,16 +9,22 @@ Per nå er det bare mulig å se plantene uten noe form for filter eller pagineri
 For å kjøre denne applikasjonen trenger du:
 
 - Yarn package manager
-  - Node versjon 21 eller nyere
+- Node versjon 20 eller nyere
 - En kodeeditor av eget valg, feks VS Code eller Cursor
 
 For å starte applikasjonen kjør:
 
-bash
+```
+yarn
+```
+
+For å installere pakker, etterfulgt av:
 
 ```
-yarn && yarn dev
+yarn dev
 ```
+
+for å starte applikasjonen.
 
 ## Oppgave
 
