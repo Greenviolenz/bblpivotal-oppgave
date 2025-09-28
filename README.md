@@ -1,69 +1,66 @@
-# React + TypeScript + Vite
+# BBL Pivotal kodeoppgave ❤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dette er en liten test for å få et lite innblikk i kompetansenivå når det kommer til koding i React.
+Dette er en React SPA med Vite og Tailwind for styling. Om du ønsker å style med plain CSS istedet er det helt i orden!
 
-Currently, two official plugins are available:
+Appen er en veldig liten plante app, med oversikt over diverse planter (bare hardkodet).
+Per nå er det bare mulig å se plantene uten noe form for filter eller paginering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For å kjøre denne applikasjonen trenger du:
 
-## Expanding the ESLint configuration
+- Yarn package manager
+  - Node versjon 21 eller nyere
+- En kodeeditor av eget valg, feks VS Code eller Cursor
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+For å starte applikasjonen kjør:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+bash
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+yarn && yarn dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Oppgave
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Denne web-appen inneholder 4 sider:
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Planter
+  - Dette er hovedsiden med oversikt over alle plantene
+  - Plantene er hardkodet og ligger i [src/data/plants.ts](src/data/plants.ts).
+- Om oss
+- Kontakt
+- Handlekurv
+
+### Del 1: Forbedringer
+
+Appen har litt rom for forbedringer. Om du på noe tidspunkt kommer over noe du ville gjort annerledes eller fikset på, ikke være redd for å gjøre det!
+
+Jeg ønsker meg følgende:
+
+- Navigasjonsbaren [src/components/Navigation.tsx](src/components/Navigation.tsx):
+
+  - Koden i navigasjonsbaren er litt repetativ, kan rydde opp litt her?
+
+- Listen over planter [src/pages/Plants.tsx](src/pages/Plants.tsx):
+
+  - "Kortet" som viser informasjon om plantene skulle jeg gjerne hatt som et gjenbruktbart komponent: Card, kan du implementere dette?
+  - Siden ser ikke bra ut på små skjermer, kan du fikse dette? (Igjen, kan godt bruke plain css her om du ønsker det)
+
+- Igjen, om du kommer over noe du ville gjort annerledes eller forbedret, gjør gjerne det :)
+
+### Del 2: Filter
+
+I komponentet for plante siden ([src/pages/Plants.tsx](src/pages/Plants.tsx)) er det et filter komponent som er utkommentert. Kan du koble på dette komponentet og fikse filtreringen på kategori?
+
+Kan du også legge til et søkefelt? Det skal være mulig å søke på plantenavn.
+
+### Del 3: Handlekurv
+
+Kan du legge på en mulighet til å legge til planter til handlekurven?
+
+Jeg ønsker meg følgende funksjonalitet:
+
+- Det skal være mulig å legge til planter fra plantesiden.
+- Jeg vil ha en indikasjon ved navigasjonselementet for "Handlekurv" på hvor mange gjenstader som er i handlekurven.
+- Alle gjenstandene skal listes ut i handlekurven med antall på hver gjenstand og med mulighet til å fjerne en enkelt gjenstand.
+- Handlekurven skal være lagret på enheten på tvers av sesjoner, altså om jeg lukker nettsiden og åpner den opp igjen, skal gjenstandene fortsatt være lagret.
