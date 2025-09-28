@@ -70,3 +70,5 @@ Jeg ønsker meg følgende funksjonalitet:
 - Jeg vil ha en indikasjon ved navigasjonselementet for "Handlekurv" på hvor mange gjenstader som er i handlekurven.
 - Alle gjenstandene skal listes ut i handlekurven med antall på hver gjenstand og med mulighet til å fjerne en enkelt gjenstand.
 - Handlekurven skal være lagret på enheten på tvers av sesjoner, altså om jeg lukker nettsiden og åpner den opp igjen, skal gjenstandene fortsatt være lagret.
+
+Helt til slutt ønsker jeg meg en bestillingsknapp på handlekurv siden som tømmer handlekurven og tar brukeren til en bekreftelsesside (ikke laget enda). Ingenting trenger å lagres.
