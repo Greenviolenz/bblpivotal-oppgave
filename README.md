@@ -72,3 +72,5 @@ Jeg ønsker meg følgende funksjonalitet:
 - Handlekurven skal være lagret på enheten på tvers av sesjoner, altså om jeg lukker nettsiden og åpner den opp igjen, skal gjenstandene fortsatt være lagret.
 
 Helt til slutt ønsker jeg meg en bestillingsknapp på handlekurv siden som tømmer handlekurven og tar brukeren til en bekreftelsesside (ikke laget enda). Ingenting trenger å lagres.
+
+Lykke til ❤️

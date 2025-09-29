@@ -90,38 +90,6 @@ export const plants: any[] = [
   },
   {
     id: 12,
-    name: "Dracaena",
-    description:
-      "Dracaena er en plantefamilie som finnes i flere vakre varianter, ofte med langstrakte blader i ulike grønn- og rødfarger. Den er svært lett å holde i live og tilpasser seg de fleste innemiljøer. Dracaena kan vokse seg høy og er et godt alternativ til dem som ønsker en gulvplante som tåler litt neglisjering. Den har også en luftrensende effekt og gjør innemiljøet sunnere. Dracaena tilfører en følelse av ro og grønn balanse i hjemmet.",
-    category: "indoor",
-    categoryName: "Inneplante",
-  },
-  {
-    id: 13,
-    name: "Jadeplante",
-    description:
-      "Jadeplanten (Crassula ovata) er en sukkulent som er kjent for sine tykke, kjøttfulle blader og sin symbolikk knyttet til lykke og velstand. Den vokser sakte, men kan med tid utvikle seg til en liten busk eller et miniatyrtre. Jadeplanten er enkel å stelle siden den lagrer vann i bladene og tåler tørke godt. Den trives i sollys og gjør seg godt på en lys vinduskarm. Mange setter pris på den som en gaveplante fordi den representerer hell og fremgang.",
-    category: "indoor",
-    categoryName: "Inneplante",
-  },
-  {
-    id: 14,
-    name: "Hoya",
-    description:
-      "Hoya, ofte kalt voksblomst, er en klatreplante som har blitt svært populær for sine vakre, stjerneformede blomster og tykke, blanke blader. Den kan vokse som hengende plante eller trenes opp langs et stativ, og den blomstrer ofte med duftende blomster i klynger. Hoya er lett å ta vare på, trives i indirekte lys og liker å tørke litt opp mellom vanninger. Den er både dekorativ og spennende, og en favoritt for samlere og planteentusiaster.",
-    category: "indoor",
-    categoryName: "Inneplante",
-  },
-  {
-    id: 15,
-    name: "Pilea",
-    description:
-      "Pilea peperomioides, bedre kjent som kinesisk pengeplante, er elsket for sine runde, grønne blader som sitter på lange stilker. Den har et moderne og lekent utseende som gjør den til en favoritt i mange hjem. Pilea er lett å ta vare på, vokser raskt, og den produserer ofte små stiklinger som kan deles og gis bort. Planten liker jevn vanning og mye indirekte lys. Den symboliserer vennskap og deling, og blir ofte gitt videre til venner og familie.",
-    category: "indoor",
-    categoryName: "Inneplante",
-  },
-  {
-    id: 16,
     name: "Kalathea",
     description:
       "Kalathea er en tropisk plante som er kjent for sine vakre og mønstrede blader. Bladene kan ha striper, flekker eller bølgemønstre i ulike nyanser av grønt, rosa og hvitt. Kalathea er også kjent som en ‘levende plante’, fordi bladene beveger seg etter lyset og folder seg sammen om natten. Den krever litt mer stell enn mange andre planter, siden den liker høy luftfuktighet og jevn vanning, men innsatsen belønnes med et unikt og dekorativt uttrykk.",
@@ -129,7 +97,7 @@ export const plants: any[] = [
     categoryName: "Inneplante",
   },
   {
-    id: 17,
+    id: 13,
     name: "Anthurium",
     description:
       "Anthurium er en eksotisk plante kjent for sine blanke, hjerteformede blader og fargerike blomster som ofte er røde, men kan variere til rosa eller hvite. Den blomstrer lenge og gir et friskt, tropisk preg til hjemmet. Anthurium liker lys, men ikke direkte sol, og trives med jevn vanning. Den er en favoritt hos mange fordi den kombinerer både dekorativt bladverk og langvarige blomster. Den er også et populært valg som gaveplante.",
@@ -137,23 +105,7 @@ export const plants: any[] = [
     categoryName: "Inneplante",
   },
   {
-    id: 18,
-    name: "Kaktusfiken",
-    description:
-      "Kaktusfiken (Opuntia) er en type kaktus som har flate, paddeformede blader og kan produsere spiselige frukter kalt fikenkaktus. Den er hardfør, tåler lange tørkeperioder og krever minimalt med stell. Kaktusfiken gjør seg godt i potter innendørs eller utendørs på varme sommerdager, og den gir et spennende, nesten skulpturelt inntrykk. I tillegg til sitt unike utseende kan den også ha nytteverdi, da fruktene er både smakfulle og næringsrike.",
-    category: "outdoor",
-    categoryName: "Uteplante",
-  },
-  {
-    id: 19,
-    name: "Arekapalme",
-    description:
-      "Arekapalme (Dypsis lutescens) er en populær stueplante som gir et tropisk preg med sine lange, fjæraktige blader. Den kan vokse seg ganske stor, og fungerer derfor godt som en grønn bakgrunnsplante eller som blikkfang i rommet. Arekapalmen trives best i mye indirekte lys og liker jevn fuktighet uten overvanning. Den er også kjent for sin evne til å bidra til bedre luftkvalitet innendørs, og gir en frisk, luftig atmosfære.",
-    category: "indoor",
-    categoryName: "Inneplante",
-  },
-  {
-    id: 20,
+    id: 14,
     name: "Bonsai",
     description:
       "Bonsai er ikke én spesifikk plante, men en kunstform der små trær dyrkes i potter og formes gjennom beskjæring og stell. Målet er å skape en miniatyrutgave av et fullvoksent tre med estetiske proporsjoner. Bonsai krever tålmodighet og nøyaktighet, og derfor blir den ofte sett på som en livslang hobby. Trærne kan være alt fra furu til lønn, og resultatet er levende kunstverk som gir ro, fokus og et unikt preg til hjemmet.",
@@ -161,7 +113,7 @@ export const plants: any[] = [
     categoryName: "Inneplante",
   },
   {
-    id: 21,
+    id: 15,
     name: "Agave",
     description:
       "Agave er en sukkulent som er kjent for sine store, spisse blader som vokser i rosetter. Den er en hardfør plante som tåler varme og tørke svært godt, og den er enkel å ha både innendørs og utendørs i varme perioder. Noen agavearter kan bli svært store, mens andre holder seg små og dekorative. Agave tilfører et skulpturelt og moderne preg i interiøret, og den er en klassisk plante i mange minimalistiske eller ørkeninspirerte design.",
@@ -169,15 +121,7 @@ export const plants: any[] = [
     categoryName: "Uteplante",
   },
   {
-    id: 22,
-    name: "Hibiscus",
-    description:
-      "Hibiscus er en vakker blomstrende plante kjent for sine store, fargerike blomster som kan være røde, rosa, gule eller oransje. Den gir et tydelig tropisk preg, enten den dyrkes i potter eller utendørs i varmere klima. Hibiscus trenger mye lys og regelmessig vanning for å blomstre rikt. Den er et populært innslag på terrasser og i vinterhager, og blomstringen gir glede og farge til både hjem og hage gjennom sommermånedene.",
-    category: "outdoor",
-    categoryName: "Uteplante",
-  },
-  {
-    id: 23,
+    id: 16,
     name: "Olivenplante",
     description:
       "Olivenplanten (Olea europaea) er kjent fra middelhavsområdet, hvor den dyrkes for sine olivenfrukter. Som potteplante gir den et middelhavspreg med sine smale, sølvgrønne blader. Den trives best på et lyst sted, gjerne utendørs om sommeren, og tåler tørke godt. Selv om det er vanskelig å få den til å bære frukt innendørs, er den svært dekorativ og gir et rolig, tidløst uttrykk. Mange bruker den som et stilig innslag på balkong eller terrasse.",
@@ -185,7 +129,7 @@ export const plants: any[] = [
     categoryName: "Uteplante",
   },
   {
-    id: 24,
+    id: 17,
     name: "Sitronplante",
     description:
       "Sitronplante er en sitrustrær-art som kan dyrkes i potte, og som gir duftende hvite blomster og i noen tilfeller små sitroner. Den trenger mye lys og gjerne et solrikt vindu for å trives. Sitronplanter gir et friskt og middelhavsinspirert preg til hjemmet, og blomstringen dufter fantastisk. Med godt stell kan den bære frukt, selv i nordiske hjem, og det gjør den til en spennende plante både dekorativt og praktisk.",
@@ -193,15 +137,7 @@ export const plants: any[] = [
     categoryName: "Uteplante",
   },
   {
-    id: 25,
-    name: "Bananplante",
-    description:
-      "Bananplanter gir hjemmet et eksotisk uttrykk med sine enorme, tropiske blader. Selv om de sjelden bærer spiselige bananer innendørs i vårt klima, er de svært dekorative og skaper en følelse av jungel. Planten liker mye lys og fuktighet, og med riktig stell kan den vokse seg imponerende stor på kort tid. Bananplanten er en flott gulvplante som gir dramatikk og grønn frodighet i rommet.",
-    category: "indoor",
-    categoryName: "Inneplante",
-  },
-  {
-    id: 26,
+    id: 18,
     name: "Eucalyptus",
     description:
       "Eucalyptus er en dekorativ plante med grågrønne, duftende blader som ofte brukes i blomsterdekorasjoner. Som potteplante er den rasktvoksende og kan formes med beskjæring for å passe inn i hjemmet. Eucalyptus gir en frisk og oppkvikkende duft, og bladene kan også tørkes og brukes til dekor. Den trives i solrike omgivelser og krever jevn vanning. Med sitt moderne og stilrene utseende passer den perfekt i minimalistiske interiørstiler.",
@@ -209,15 +145,7 @@ export const plants: any[] = [
     categoryName: "Uteplante",
   },
   {
-    id: 27,
-    name: "Lavendel",
-    description:
-      "Lavendel er kjent for sine vakre, lilla blomster og sin karakteristiske, beroligende duft. Den dyrkes ofte utendørs, men kan også stå i potter på balkong eller terrasse. Lavendel tiltrekker bier og sommerfugler, og bidrar dermed positivt til pollinering. Den er også populær å bruke tørket i dekorasjon eller som duftposer. Lavendel trives best i sol og godt drenert jord, og gir en følelse av sommer og middelhavshage.",
-    category: "outdoor",
-    categoryName: "Uteplante",
-  },
-  {
-    id: 28,
+    id: 19,
     name: "Rosmarin",
     description:
       "Rosmarin er både en dekorativ plante og en verdsatt krydderurt i matlaging. Den har smale, nåleaktige blader med en frisk og aromatisk duft. Rosmarin trives i solrike omgivelser og liker veldrenert jord, og den kan dyrkes både innendørs i potter eller ute om sommeren. I tillegg til sin kulinariske verdi gir den en middelhavsfølelse og er et flott innslag på kjøkkenet. Den er en favoritt blant hobbykokker.",
@@ -225,18 +153,10 @@ export const plants: any[] = [
     categoryName: "Krydder",
   },
   {
-    id: 29,
+    id: 20,
     name: "Basilikum",
     description:
       "Basilikum er en av de mest brukte urtene på kjøkkenet, særlig i middelhavsmat. Den har friske, grønne blader med en karakteristisk duft og smak. Basilikum trives best i solrike vinduskarmer og liker jevnlig vanning. Den kan brukes fersk i alt fra salater og pasta til pizza og pesto. I tillegg til sin praktiske nytte gir den et friskt og grønt preg på kjøkkenbenken, og mange setter pris på å ha den lett tilgjengelig.",
-    category: "spice",
-    categoryName: "Krydder",
-  },
-  {
-    id: 30,
-    name: "Timian",
-    description:
-      "Timian er en aromatisk urt som brukes flittig i matlaging, spesielt til kjøttretter, gryter og middelhavsinspirerte retter. Den har små, grønne blader som sitter tett på tynne stilker. Timian er lett å dyrke både i potter og ute i hagen, og den tåler sol og tørke godt. I tillegg til å være en nyttig urt, er den også dekorativ med sine små blomster som tiltrekker bier. Den gir en både praktisk og estetisk verdi til hagen eller kjøkkenet.",
     category: "spice",
     categoryName: "Krydder",
   },
