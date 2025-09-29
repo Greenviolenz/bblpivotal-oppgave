@@ -58,6 +58,7 @@ Jeg ønsker meg følgende:
 
   - "Kortet" som viser informasjon om plantene skulle jeg gjerne hatt som et gjenbruktbart komponent: Card, kan du implementere dette?
   - Siden ser ikke bra ut på små skjermer, kan du fikse dette? (Igjen, kan godt bruke plain css her om du ønsker det)
+  - Det ser litt rart ut når kortene for planter blir like høye på én rad, kan du gjøre slik at de tilpasses høyden?
 
 - Igjen, om du kommer over noe du ville gjort annerledes eller forbedret, gjør gjerne det :)
 

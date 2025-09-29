@@ -12,7 +12,7 @@ export const plants: any[] = [
     id: 2,
     name: "Monstera",
     description:
-      "Monstera deliciosa, ofte kalt sveitsostplante, er en stor og dramatisk grønnplante som gir et tropisk preg til hjemmet. Den er lett å kjenne igjen på de store, blanke bladene med naturlige hull og fliker. Monsteraen er lettstelt og trives godt i indirekte lys, og med riktig pleie kan den vokse seg imponerende stor. Mange velger også å støtte den med en mosepinne for å få den til å klatre naturlig, slik den ville gjort i regnskogen.",
+      "Monstera deliciosa, ofte kalt sveitsostplante, er en stor og dramatisk grønnplante som gir et tropisk preg til hjemmet. Den er lett å kjenne igjen på de store, blanke bladene med naturlige hull og fliker. Monsteraen er lettstelt og trives godt i indirekte lys, og med riktig pleie kan den vokse seg imponerende stor.",
     category: "indoor",
     categoryName: "Inneplante",
   },
@@ -36,7 +36,7 @@ export const plants: any[] = [
     id: 5,
     name: "Kaktus",
     description:
-      "Kaktuser er en stor og mangfoldig plantefamilie som finnes i utallige former og størrelser. De er spesielt populære fordi de krever minimalt med stell og kan overleve lange perioder uten vann, noe som gjør dem til perfekte planter for travle mennesker. Kaktuser lagrer vann i stilkene, og mange har vakre blomster i sterke farger når de først blomstrer. Med sitt unike og skulpturelle utseende gir kaktusen et moderne preg til både hjem og kontor.",
+      "Kaktuser er en stor og mangfoldig plantefamilie som finnes i utallige former og størrelser. De er spesielt populære fordi de krever minimalt med stell og kan overleve lange perioder uten vann, noe som gjør dem til perfekte planter for travle mennesker.",
     category: "indoor",
     categoryName: "Inneplante",
   },
@@ -52,7 +52,7 @@ export const plants: any[] = [
     id: 7,
     name: "Zamioculcas",
     description:
-      "Zamioculcas zamiifolia, ofte kalt ZZ-plante, er kjent for å være nesten umulig å ta knekken på. Den tåler lite lys, ujevn vanning og generelt lite pleie, og er derfor en ideell plante for de som ønsker noe dekorativt uten mye ansvar. Planten har blanke, mørkegrønne blader som gir et stilrent og elegant preg til rommet. Den vokser sakte, men jevnt, og kan bli en trofast følgesvenn i mange år.",
+      "Zamioculcas zamiifolia, ofte kalt ZZ-plante, er kjent for å være nesten umulig å ta knekken på. Den tåler lite lys, ujevn vanning og generelt lite pleie, og er derfor en ideell plante for de som ønsker noe dekorativt uten mye ansvar. Planten har blanke, mørkegrønne blader som gir et stilrent og elegant preg til rommet.",
     category: "indoor",
     categoryName: "Inneplante",
   },
