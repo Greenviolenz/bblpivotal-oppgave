@@ -17,7 +17,7 @@ For å kjøre denne applikasjonen trenger du:
 
 For å komme igang, lag en fork av dette repoet på Github.
 Lag din egen branch ut ifra master.
-Når du er ferdig lager du en pull request
+Når du er ferdig lager du en pull request mot hovedrepo.
 
 For å starte applikasjonen kjør:
 
