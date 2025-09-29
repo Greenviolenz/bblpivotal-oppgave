@@ -6,11 +6,18 @@ Dette er en React SPA med Vite og Tailwind for styling. Om du ønsker å style m
 Appen er en veldig liten plante app, med oversikt over diverse planter (bare hardkodet).
 Per nå er det bare mulig å se plantene uten noe form for filter eller paginering.
 
+## Komme igang
+
 For å kjøre denne applikasjonen trenger du:
 
+- En github bruker
 - Yarn package manager
 - Node versjon 20 eller nyere
 - En kodeeditor av eget valg, feks VS Code eller Cursor
+
+For å komme igang, lag en fork av dette repoet på Github.
+Lag din egen branch ut ifra master.
+Når du er ferdig lager du en pull request
 
 For å starte applikasjonen kjør:
 
