@@ -52,21 +52,21 @@ Jeg ønsker meg følgende:
 
 - Navigasjonsbaren [src/components/Navigation.tsx](src/components/Navigation.tsx):
 
-  - Koden i navigasjonsbaren er litt repetativ, kan rydde opp litt her?
+  - Koden i navigasjonsbaren er litt repetativ, kan rydde opp litt her?  ✅
 
 - Listen over planter [src/pages/Plants.tsx](src/pages/Plants.tsx):
 
-  - "Kortet" som viser informasjon om plantene skulle jeg gjerne hatt som et gjenbruktbart komponent: Card, kan du implementere dette?
-  - Siden ser ikke bra ut på små skjermer, kan du fikse dette? (Igjen, kan godt bruke plain css her om du ønsker det)
-  - Det ser litt rart ut når kortene for planter blir like høye på én rad, kan du gjøre slik at de tilpasses høyden?
+  - "Kortet" som viser informasjon om plantene skulle jeg gjerne hatt som et gjenbruktbart komponent: Card, kan du implementere dette?  ✅
+  - Siden ser ikke bra ut på små skjermer, kan du fikse dette? (Igjen, kan godt bruke plain css her om du ønsker det)  ✅
+  - Det ser litt rart ut når kortene for planter blir like høye på én rad, kan du gjøre slik at de tilpasses høyden?  ✅
 
 - Igjen, om du kommer over noe du ville gjort annerledes eller forbedret, gjør gjerne det :)
 
 ### Del 2: Filter
 
-I komponentet for plante siden ([src/pages/Plants.tsx](src/pages/Plants.tsx)) er det et filter komponent som er utkommentert. Kan du koble på dette komponentet og fikse filtreringen på kategori?
+I komponentet for plante siden ([src/pages/Plants.tsx](src/pages/Plants.tsx)) er det et filter komponent som er utkommentert. Kan du koble på dette komponentet og fikse filtreringen på kategori? ✅
 
-Kan du også legge til et søkefelt? Det skal være mulig å søke på plantenavn.
+Kan du også legge til et søkefelt? Det skal være mulig å søke på plantenavn. ✅
 
 ### Del 3: Handlekurv
 

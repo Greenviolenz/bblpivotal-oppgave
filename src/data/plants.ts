@@ -1,5 +1,14 @@
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const plants: any[] = [
+
+export type TPlant = {
+  id: number,
+  name: string,
+  description: string;
+  category: string;
+  categoryName: string;
+}
+
+export const plants: TPlant[] = [
   {
     id: 1,
     name: "Gullranke",
